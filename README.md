@@ -1,7 +1,6 @@
 
 ## Synopsis
 
-
 An example of Dockerized Microservice using Python Flask framework
 
 ## Code Example
@@ -30,10 +29,10 @@ docker-compose up
 
 ## Tests
 
+You can test the app using curl command  or POSTMAN plugin for Chrome
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
 ## License
 

@@ -1,0 +1,4 @@
+Flask==1.0.2
+pyaml==17.12.1
+pandas==0.23.0
+pathlib2==2.3.2

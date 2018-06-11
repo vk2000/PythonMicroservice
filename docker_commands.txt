@@ -1,0 +1,18 @@
+#create image
+docker build -t <docker_name> .
+
+#run image  <map container port 5000 to localhost 5001
+docker run -p 5001:5000 -d <docker_name>
+
+# Get container ID
+dockerr ps
+
+#check logs
+docker logs <container_id>
+
+# Enter the container
+docker exec -it <container id> /bin/bash
+
+#test
+ curl -i localhost:5001
+

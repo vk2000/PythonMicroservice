@@ -8,7 +8,7 @@ phases:
  - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
  - REPOSITORY_URI=896834776773.dkr.ecr.us-east-2.amazonaws.com/python
  - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
- - IMAGE_TAG=${COMMIT_HASH:=fa68cfe}
+ - IMAGE_TAG=${COMMIT_HASH:=latest}
 
  build:
  commands:
